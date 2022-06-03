@@ -13,3 +13,6 @@ Script in 4-puts.c use the fonction puts() to print a sentence.
 
 Script in 5-printf.c use the function printf() to print a 
 sentence.
+
+Script in 6-size.c prints the size of various types on the com
+puter it is compiled and run on.
