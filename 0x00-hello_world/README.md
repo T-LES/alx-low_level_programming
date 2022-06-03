@@ -19,3 +19,6 @@ puter it is compiled and run on.
 
 Script in 100-intel generates the assembly code (intel syntax) 
 of a C code and save it in an output file.
+
+Script in 101-quote.c prints a statement without the function
+printf() or puts().
