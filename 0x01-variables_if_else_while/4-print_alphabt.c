@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char lh[24] = "abcdfghijklmnoprstuvwy";
+	char lh[24] = "abcdfghijklmnoprstuvwyz";
 	int c;
 
 	for (c = 0; c <= 23; c++)
