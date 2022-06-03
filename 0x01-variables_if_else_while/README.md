@@ -8,3 +8,6 @@ last number to 0, 5 or 6 then print if it's zero,
 
 Script in 2-print_alphabet.c prints the alphabet 
 in lowercase.
+
+Script in 3-print_alphabets.c prints the alphabet
+in lowercase and uppercase.
