@@ -5,3 +5,6 @@ Script in 1-compiler compiles a C file but does not link.
 
 Script in 2-assembler generates the assembly code of C code and 
 save it in an output.
+
+Script in 3-name compiles a C file and creates an executable 
+named cisfun.
