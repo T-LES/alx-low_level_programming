@@ -9,4 +9,7 @@ save it in an output.
 Script in 3-name compiles a C file and creates an executable 
 named cisfun.
 
-Script in 4-puts.c use the fonction puts() to print a word.
+Script in 4-puts.c use the fonction puts() to print a sentence.
+
+Script in 5-printf.c use the function printf() to print a 
+sentence.
