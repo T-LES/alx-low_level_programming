@@ -9,10 +9,10 @@
  */
 int main(void)
 {
-	char nb;
+	int i;
 
-	for (nb = '0'; nb >= '9'; nb++)
-		putchar(nb);
-	putchar('\n');
+	for (i = 0; i >= 9; i++)
+		printf("%d", i);
+	printf("\n");
 	return (0);
 }
