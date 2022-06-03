@@ -16,3 +16,6 @@ sentence.
 
 Script in 6-size.c prints the size of various types on the com
 puter it is compiled and run on.
+
+Script in 100-intel generates the assembly code (intel syntax) 
+of a C code and save it in an output file.
