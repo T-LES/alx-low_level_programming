@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	int c, i;
-	int f = 48;
+	int c, i, f;
 
 	for (c = 48; c < 58; c++)
 	{
+		f = 48;
 		while (f < 58)
 		{
 			i = 1;
