@@ -23,3 +23,6 @@ program 5-print_numbers.c.
 
 Program 7-print_tebahpla.c prints the alphabet in 
 reverse order.
+
+Program 8-print_base16.c prints all single digit
+numbers of base 16 in lowercase.
