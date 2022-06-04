@@ -17,3 +17,6 @@ except q and e in lowercase.
 
 Program 5-print_numbers.c prints all single digit
 numbers of base 10 starting from zero.
+
+Program 6-print_numberz.c do the same thing as the
+program 5-print_numbers.c.
