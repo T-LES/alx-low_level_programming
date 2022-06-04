@@ -12,8 +12,11 @@ int main(void)
 	for (c = 48; c < 58; c++)
 	{
 		putchar(c);
-		putchar(44);
-		putchar(32);
+		while (c < 56)
+		{
+			putchar(44);
+			putchar(32);
+		}
 	}
 	putchar(10);
 	return (0);
