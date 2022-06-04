@@ -9,10 +9,11 @@
  */
 int main(void)
 {
-	char lw;
+	char lw[26] = "zyxwvutsrqponmlkjihgfedcba";
+	int c;
 
-	for (lw = 'z'; lw <= 'a'; lw--)
-		putchar(lw);
+	for (c = 0; c < 26 ; c++)
+		putchar(lw[c]);
 	putchar('\n');
 	return (0);
 }
