@@ -9,12 +9,12 @@ int main(void)
 {
 	int c;
 	int f = 48;
-	int i = 1;
 
 	for (c = 48; c < 58; c++)
 	{
 		while (f < 58)
 		{
+			i = 1;
 			putchar(c);
 			putchar(f);
 			if ((i % 2) == 0)
