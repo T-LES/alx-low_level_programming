@@ -12,7 +12,7 @@ int main(void)
 	for (c = 48; c < 58; c++)
 	{
 		putchar(c);
-		while (c < 56)
+		if (c <= 56)
 		{
 			putchar(44);
 			putchar(32);
