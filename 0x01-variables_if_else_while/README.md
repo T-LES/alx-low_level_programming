@@ -26,3 +26,6 @@ reverse order.
 
 Program 8-print_base16.c prints all single digit
 numbers of base 16 in lowercase.
+
+Program 9-print_comb.c prints all single digit 
+seperated by , and followed by a space.
