@@ -29,3 +29,7 @@ numbers of base 16 in lowercase.
 
 Program 9-print_comb.c prints all single digit 
 seperated by , and followed by a space.
+
+Program 100-print_comb3.c prints all possible
+different combinaison of thr two digits 0 and
+1 with the two digits differents.
