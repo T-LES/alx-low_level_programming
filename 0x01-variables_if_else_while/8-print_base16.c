@@ -9,10 +9,10 @@ int main(void)
 {
 	int i;
 
-	for (i = 48; i < 104; i++)
+	for (i = 48; i < 103; i++)
 		if ((i > 47) && (i < 58))
 			putchar(i);
-		else if ((i > 96) && (i < 104))
+		else if ((i > 96) && (i < 103))
 			putchar(i);
 	putchar('\n');
 	return (0);
