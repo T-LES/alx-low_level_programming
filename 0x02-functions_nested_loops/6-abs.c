@@ -8,18 +8,14 @@
  */
 int _abs(int a)
 {
-	int b, c;
-
 	if (a >= 0)
 	{
 		return (a);
 	}
 	else
 	{
-		c = b;
-		b *= 2;
-		c = b / c;
-		return (c);
+		a = (a *= 2) / a;
+		return (a);
 	}
 	_putchar(10);
 }
