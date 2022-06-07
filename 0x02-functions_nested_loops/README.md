@@ -13,3 +13,6 @@ Function in 5-sign.c prints the sign of a number.
 
 Function in 6-abs.c computes the absolute value of an in
 teger.
+
+Function in 7-print_last_digit.c prints the last digit of
+an integer.
