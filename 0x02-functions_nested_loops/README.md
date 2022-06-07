@@ -10,3 +10,6 @@ Function in 3-islower.c checks for lowercase character.
 Function in 4-isalpha.c checks for alphabet characeter.
 
 Function in 5-sign.c prints the sign of a number.
+
+Function in 6-abs.c computes the absolute value of an in
+teger.
