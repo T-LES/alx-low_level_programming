@@ -14,7 +14,7 @@ int main(void)
 		f = 48;
 		while (f < 58)
 		{
-			o = f +1;
+			o = f + 1;
 			i = c;
 			while (i < 58)
 			{
@@ -25,7 +25,7 @@ int main(void)
 					putchar(32);
 					putchar(i);
 					putchar(o);
-					if ((c < 57 || f < 56 || i < 57 || o < 57))
+					if ((c < 57) || (f < 56) || (i < 57) || (o < 57))
 					{
 						putchar(44);
 						putchar(32);
@@ -37,7 +37,6 @@ int main(void)
 			}
 			f++;
 		}
-		c++;
 	}
 	putchar(10);
 	return (0);
