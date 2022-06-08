@@ -22,3 +22,5 @@ Jack Bauer, starting from 00:00 to 23:59.
 
 Function in 9-times_table.c prints the 9 times table, star
 ting with 0.
+
+Function 10-add.c adds two integers and returns the result.
