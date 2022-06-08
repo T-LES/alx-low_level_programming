@@ -11,32 +11,32 @@
  */
 void print_to_98(int n)
 {
-	int i = 0, j = 0;
+	int i;
 
 	if (n < 98)
 	{
+		i = 0;
 		while (i < 98)
 		{
-			n = n + j;
+			n = n + i;
 			printf("%d", n);
-			_putchar(44);
-			_putchar(32);
-			i = n;
-			j++;
+			printf(" ");
+			printf(",");
+			i++;
 		}
 	}
 	else if (n == 98)
 		printf("%d", n);
 	else
 	{
+		i = 0;
 		while (i < 98)
 		{
 			n = n - j;
 			printf("%d", n);
-			_putchar(44);
-			_putchar(32);
-			i = n;
-			j++;
+			printf(" ");
+			printf(",");
+			i++;
 		}
 	}
 	printf("\n");
