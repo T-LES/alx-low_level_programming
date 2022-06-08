@@ -26,13 +26,23 @@ void print_times_table(int n)
 					_putchar(44);
 					_putchar(32);
 					_putchar(32);
+					_putchar(32);
 					_putchar(d + 48);
+				}
+				else if (d <= 99)
+				{
+					_putchar(44);
+					_putchar(32);
+					_putchar(32);
+					_putchar((d / 10) + 48);
+					_putchar((d % 10) + 48);
 				}
 				else
 				{
 					_putchar(44);
 					_putchar(32);
-					_putchar((d / 10) + 48);
+					_putchar(((d / 100) % 10) + 48);
+					_putchar(((d / 10) % 10) + 48);
 					_putchar((d % 10) + 48);
 				}
 			}
