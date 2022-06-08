@@ -16,3 +16,6 @@ teger.
 
 Function in 7-print_last_digit.c prints the last digit of
 an integer.
+
+Function in 8-24_hours.c prints every minute of the day of
+Jack Bauer, starting from 00:00 to 23:59.
