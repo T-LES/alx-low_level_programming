@@ -36,13 +36,16 @@ void print_to_98(int n)
 	{
 		i = 0;
 		j = n;
-		while (j > 99)
+		while (j > 98)
 		{
 			k = n - i;
-			printf("%d", k);
-			printf(",");
-			printf(" ");
 			j = k;
+			printf("%d", k);
+			if (j < 98)
+			{
+				printf(",");
+				printf(" ");
+			}
 			i++;
 		}
 	}
