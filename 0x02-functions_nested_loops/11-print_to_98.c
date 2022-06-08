@@ -17,12 +17,15 @@ void print_to_98(int n)
 	{
 		i = 0;
 		j = n;
-		while (j <= 97)
+		while (j < 97)
 		{
 			k = n + i;
 			printf("%d", k);
-			printf(",");
-			printf(" ");
+			if (j < 97)
+			{
+				printf(",");
+				printf(" ");
+			}
 			j = k;
 			i++;
 		}
@@ -33,12 +36,15 @@ void print_to_98(int n)
 	{
 		i = 0;
 		j = n;
-		while (j >= 97)
+		while (j > 98)
 		{
 			k = n - i;
 			printf("%d", k);
-			printf(",");
-			printf(" ");
+			if (j > 97)
+			{
+				printf(",");
+				printf(" ");
+			}
 			j = k;
 			i++;
 		}
