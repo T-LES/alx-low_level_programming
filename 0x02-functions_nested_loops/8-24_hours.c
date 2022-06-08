@@ -26,10 +26,11 @@ void jack_bauer(void)
 					_putchar(58);
 					_putchar(k);
 					_putchar(l);
-					if (l < 57)
+					if (l <= 57)
 						_putchar(10);
 					l++;
 				}
+				l = 48;
 				k++;
 			}
 			j++;
