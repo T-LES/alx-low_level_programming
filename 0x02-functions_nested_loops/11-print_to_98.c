@@ -32,7 +32,7 @@ void print_to_98(int n)
 		i = 0;
 		while (i < 98)
 		{
-			n = n - j;
+			n = n - i;
 			printf("%d", n);
 			printf(" ");
 			printf(",");
