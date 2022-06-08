@@ -41,7 +41,7 @@ void print_to_98(int n)
 			k = n - i;
 			j = k;
 			printf("%d", k);
-			if (j < 98)
+			if (j > 98)
 			{
 				printf(",");
 				printf(" ");
