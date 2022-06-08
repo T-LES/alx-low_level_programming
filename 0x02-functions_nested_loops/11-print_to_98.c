@@ -11,17 +11,19 @@
  */
 void print_to_98(int n)
 {
-	int i;
+	int i, k, j;
 
 	if (n < 98)
 	{
 		i = 0;
-		while (i < 98)
+		j = n;
+		while (j < 98)
 		{
-			n = n + i;
+			k = n + i;
 			printf("%d", n);
-			printf(" ");
 			printf(",");
+			printf(" ");
+			j = k;
 			i++;
 		}
 	}
@@ -30,12 +32,14 @@ void print_to_98(int n)
 	else
 	{
 		i = 0;
+		j = n;
 		while (i < 98)
 		{
-			n = n - i;
-			printf("%d", n);
-			printf(" ");
+			k = n - i;
+			printf("%d", k);
 			printf(",");
+			printf(" ");
+			j = k;
 			i++;
 		}
 	}
