@@ -18,22 +18,14 @@ void times_table(void)
 			if (d < 10)
 			{
 				_putchar(d + 48);
-				if (j < 9)
-				{
-					_putchar(44);
-					_putchar(32);
-					_putchar(32);
-				}
+				_putchar(44);
+				_putchar(32);
+				_putchar(32);
 			}
 			else
 			{
 				_putchar((d / 10) + 48);
 				_putchar((d % 10) + 48);
-				if (j < 9)
-				{
-					_putchar(44);
-					_putchar(32);
-				}
 			}
 		}
 		_putchar(10);
