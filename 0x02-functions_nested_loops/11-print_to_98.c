@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -17,7 +18,7 @@ void print_to_98(int n)
 		while (i < 98)
 		{
 			n = n + j;
-			printf(n);
+			printf("%d", n);
 			_putchar(44);
 			_putchar(32);
 			i = n;
@@ -25,13 +26,13 @@ void print_to_98(int n)
 		}
 	}
 	else if (n == 98)
-		printf(n);
+		printf("%d", n);
 	else
 	{
 		while (i < 98)
 		{
 			n = n - j;
-			printf(n);
+			printf("%d", n);
 			_putchar(44);
 			_putchar(32);
 			i = n;
