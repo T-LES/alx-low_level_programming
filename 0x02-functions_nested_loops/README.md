@@ -27,3 +27,6 @@ Function in 10-add.c adds two integers and returns the result.
 
 Function in 11-print_to_98.c prints all natural numbers from
 n to 98.
+
+Function in 100-times_table.c prints the n times table, star
+ting with 0.
