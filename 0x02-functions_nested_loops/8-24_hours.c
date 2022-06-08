@@ -21,11 +21,14 @@ void jack_bauer(void)
 			{
 				while (l <= 57)
 				{
-					_putchar(i);
-					_putchar(j);
-					_putchar(58);
-					_putchar(k);
-					_putchar(l);
+					if ((i <= 50) && (j <= 51))
+					{
+						_putchar(i);
+						_putchar(j);
+						_putchar(58);
+						_putchar(k);
+						_putchar(l);
+					}
 					if (l <= 57)
 						_putchar(10);
 					l++;
