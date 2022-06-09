@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - Prints the first 50 Fibonacci numbers
@@ -30,6 +29,7 @@ int main(void)
 		}
 	}
 	printf("\n");
+	return (0);
 }
 
 
