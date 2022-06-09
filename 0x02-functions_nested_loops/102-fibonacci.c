@@ -7,26 +7,16 @@
  */
 int main(void)
 {
-	int i, j = 0, k = 1, r;
+	long int i, j = 0, k = 1, r;
 
 	for (i = 1; i <= 50; i++)
 	{
-		if (i == 1)
-		{
-			r = i;
-			printf("%d", r);
-			printf(",");
-			printf(" ");
-		}
-		else
-		{
-			r = j + k;
-			j = k;
-			k = r;
-			printf("%d", r);
-			printf(",");
-			printf(" ");
-		}
+		r = j + k;
+		j = k;
+		k = r;
+		printf("%ld", r);
+		printf(",");
+		printf(" ");
 	}
 	printf("\n");
 	return (0);
