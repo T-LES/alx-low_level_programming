@@ -15,8 +15,11 @@ int main(void)
 		j = k;
 		k = r;
 		printf("%ld", r);
-		printf(",");
-		printf(" ");
+		if (i < 49)
+		{
+			printf(",");
+			printf(" ");
+		}
 	}
 	printf("\n");
 	return (0);
