@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_triangle - prints a square
+ * print_triangle - prints a triangle
  *
  * @size: is the size of the triangle
  * be printed
@@ -14,7 +14,7 @@ void print_triangle(int size)
 	int i, j, a;
 
 	if (size <= 0)
-		putchar(10);
+		_putchar(10);
 	else
 	{
 		for (i = size; i >= 0; i--)
@@ -23,7 +23,7 @@ void print_triangle(int size)
 
 			while (j < i)
 			{
-				putchar(32);
+				_putchar(32);
 				j++;
 			}
 			a = j;
@@ -31,16 +31,16 @@ void print_triangle(int size)
 			{
 				while (a < size)
 				{
-					putchar(35);
+					_putchar(35);
 					a++;
 				}
 			}
 			else
 			{
 				for (j = 0; j < size; j++)
-					putchar(35);
+					_putchar(35);
 			}
-			putchar(10);
+			_putchar(10);
 		}
 	}
 }
