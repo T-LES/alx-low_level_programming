@@ -21,13 +21,10 @@ void print_triangle(int size)
 		{
 			j = 0;
 
-			if (i != 1)
+			while (j < i)
 			{
-				while (j < i)
-				{
-					_putchar(32);
-					j++;
-				}
+				_putchar(32);
+				j++;
 			}
 			a = j;
 			if (a != 0)
