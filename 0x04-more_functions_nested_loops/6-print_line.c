@@ -3,11 +3,11 @@
 /**
  * print_line - draws a straight line in the terminal
  *
- * @n: is the number of times the character _ should 
+ * @n: is the number of times the character _ should
  * be printed
  *
  * Return: new line if n is less or equal to 0 and
- * underscore otherwise 
+ * underscore otherwise
  */
 void print_line(int n)
 {
