@@ -3,30 +3,30 @@
 /**
  * print_square - prints a square
  *
- * @size: is the size of square 
+ * @size: is the size of square
  * be printed
  *
  * Return: new line if n is less or equal to 0 and
- * number otherwise 
+ * number otherwise
  */
 void print_square(int size)
 {
 	int i, j;
 
-	for (i = 0; i < n; i++)
+	if (size <= 0)
+		_putchar(10);
+	else
 	{
-		if (size <= 0)
-			_putchar(10);
-		else
+		for (i = 0; i < size; i++)
 		{
 			j = 0;
 
-			while (j < n)
+			while (j < size)
 			{
 				_putchar(35);
 				j++;
 			}
+			_putchar(10);
 		}
-		_putchar(10);
 	}
 }
