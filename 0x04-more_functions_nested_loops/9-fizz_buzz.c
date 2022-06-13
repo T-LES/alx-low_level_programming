@@ -16,19 +16,22 @@ int main(void)
 	{
 		if ((i % 3) == 0)
 		{
-			printf("Fizz");
-			printf(" ");
+			if ((i % 5) == 0)
+			{
+				printf("FizzBuzz");
+				printf(" ");
+			}
+			else
+			{
+				printf("Fizz");
+				printf(" ");
+			}
 		}
 		else if ((i % 5) == 0)
 		{
 			printf("Buzz");
 			if (i < 100)
 				printf(" ");
-		}
-		else if (((i % 3) == 0) && ((i % 5) == 0))
-		{
-			printf("FizzBuzz");
-			printf(" ");
 		}
 		else
 		{
@@ -37,4 +40,5 @@ int main(void)
 		}
 	}
 	printf("\n");
+	return (0);
 }
