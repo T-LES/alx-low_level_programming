@@ -21,5 +21,8 @@ void print_rev(char *s)
 		p = s[j];
 		s[j] = s[l - j - 1];
 		s[l - j - 1] = p;
+		_putchar(s[j]);
 	}
+	_putchar(10);
+
 }
