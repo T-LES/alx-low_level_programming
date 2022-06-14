@@ -15,11 +15,11 @@ void print_rev(char *s)
 		i++;
 		s++;
 	}
-	l = i - 1;
+	i = i - 1;
 	while (l >= 0)
 	{
-		_putchar(s[l]);
-		l--;
+		_putchar(s[i]);
+		i = i - 1;
 	}
 	_putchar(10);
 }
