@@ -16,13 +16,9 @@ void print_rev(char *s)
 		s++;
 	}
 	l = i;
-	for (j = 0; j < l / 2; j++)
+	for (l = i; j >= 0; l--)
 	{
-		p = s[j];
-		s[j] = s[l - j - 1];
-		s[l - j - 1] = p;
-		_putchar(s[j]);
+		_putchar(s[l];
 	}
 	_putchar(10);
-
 }
