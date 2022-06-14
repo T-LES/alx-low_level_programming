@@ -19,7 +19,7 @@ void print_rev(char *s)
 	for (j = 0; j < l / 2; j++)
 	{
 		p = s[j];
-		s[i] = s[l - j - 1];
+		s[j] = s[l - j - 1];
 		s[l - j - 1] = p;
 	}
 }
