@@ -19,7 +19,7 @@ void puts_half(char *str)
 	if (i % 2 != 0)
 	{
 		n = (i - 1) / 2;
-		n = n - 1;
+		n = n + 1;
 
 		while ((n <= i))
 		{
@@ -30,7 +30,7 @@ void puts_half(char *str)
 	else
 	{
 		j = i / 2;
-		j = j - 1;
+		j = j + 1;
 
 		while (j <= i)
 		{
