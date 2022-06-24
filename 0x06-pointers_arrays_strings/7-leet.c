@@ -12,12 +12,12 @@ char *leet(char *l)
 	char b[] = {65, 69, 79, 84, 76};
 	char c[] = {52, 51, 48, 55, 49};
 
-	for (l = 0; l[i] != '\0'; l++)
+	for (i = 0; l[i] != '\0'; i++)
 	{
 		while (j < 5)
 		{
 			if (l[i] == a[j] || l[i] == b[j])
-				l[i] == c[j];
+				l[i] = c[j];
 			j++;
 		}
 	}
