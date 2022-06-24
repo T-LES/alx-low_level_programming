@@ -17,7 +17,10 @@ char *leet(char *l)
 		while (j < 5)
 		{
 			if (l[i] == a[j] || l[i] == b[j])
+			{
 				l[i] = c[j];
+				break;
+			}
 			j++;
 		}
 	}
