@@ -14,14 +14,13 @@ char *leet(char *l)
 
 	for (i = 0; l[i] != '\0'; i++)
 	{
-		while (j < 5)
+		for (j = 0; j < 5; j++)
 		{
 			if (l[i] == a[j] || l[i] == b[j])
 			{
 				l[i] = c[j];
 				break;
 			}
-			j++;
 		}
 	}
 	return (l);
