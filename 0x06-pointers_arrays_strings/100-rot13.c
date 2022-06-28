@@ -11,7 +11,7 @@ char *rot13(char *l)
 	char letters[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char rotletters[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (i = 0; l[i] = '\0'; i++)
+	for (i = 0; l[i] != '\0'; i++)
 	{
 		for (j = 0; j < 52; j++)
 		{
@@ -22,4 +22,5 @@ char *rot13(char *l)
 			}
 		}
 	}
+	return (l);
 }
