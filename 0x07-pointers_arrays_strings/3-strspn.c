@@ -8,7 +8,7 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, p, k;
+	int i, j = 0, p = 0, k;
 
 	while (accept[j] != '\0')
 	{
@@ -16,14 +16,16 @@ unsigned int _strspn(char *s, char *accept)
 	}
 	for (i = 0; s[i] >= 0; i++)
 	{
-		for (k = 0; k <= j; k++)
+		for (k = 0; k < j; k++)
 		{
-			if (s[i] == s[k])
+			if (s[i] == accept[k])
 			{
 				p++;
 				break;
 			}
 		}
+		if (accept[k] == '\0')
+			break;
 	}
 	return (p);
 }
