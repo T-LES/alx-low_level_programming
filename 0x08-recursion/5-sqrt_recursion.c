@@ -17,7 +17,7 @@ int square(int i, int n, int count)
 	else if (n == 0)
 		return (count);
 	count++;
-	j= 2 * i + 1;
+	j = 2 * i + 1;
 	i++;
 	return (square(i, n - j, count));
 }
