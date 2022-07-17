@@ -1,5 +1,5 @@
 #include "main.h"
-int square(i, n, count);
+int square(int i, int n, int count);
 
 /**
  * square - calculates the square
@@ -8,7 +8,7 @@ int square(i, n, count);
  * @count: is a number
  * Return: the square
  */
-int square(i, n, count);
+int square(int i, int n, int count);
 {
 	if (n < 0)
 		return (-1);
