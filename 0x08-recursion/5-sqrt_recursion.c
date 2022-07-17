@@ -1,4 +1,23 @@
 #include "main.h"
+int square(i, n, count);
+
+/**
+ * square - calculates the square
+ * @i: is a number
+ * @n: is a number
+ * @count: is a number
+ * Return: the square
+ */
+int square(i, n, count);
+{
+	if (n < 0)
+		return (-1);
+	else if (n == 0)
+		return (count);
+	count++;
+	n = n - ((2 * i) +1);
+	return (square(i, n, count));
+}
 
 /**
  * _sqrt_recursion - returns the natural square root of a number
@@ -7,14 +26,8 @@
  */
 int _sqrt_recursion(int n)
 {
-	int i = -1, j = -1;
+	int i = 0, count = 0;
 
-	if (n < 0)
-		return (-1);
-	else if (n == 0)
-		return (0);
-	i++;
-	j++;
-	_sqrt_recursion(n -((2 * j) + 1));
-	return (i);
+	count = square(i, n, count);
+	return (count);
 }
