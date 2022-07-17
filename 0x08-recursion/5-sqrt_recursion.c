@@ -10,13 +10,16 @@ int square(int i, int n, int count);
  */
 int square(int i, int n, int count)
 {
+	int j = 0;
+
 	if (n < 0)
 		return (-1);
 	else if (n == 0)
 		return (count);
 	count++;
-	n = n - ((2 * i) +1);
-	return (square(i, n, count));
+	j= 2 * i + 1;
+	i++;
+	return (square(i, n - j, count));
 }
 
 /**
