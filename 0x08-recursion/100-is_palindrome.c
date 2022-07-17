@@ -30,7 +30,7 @@ int palindrome(char *str, int start, int end)
 	else if (str[start] != str[end])
 		return (0);
 	else if (start < (end + 1))
-		return (palindrome(str, start + 1, end + 1));
+		return (palindrome(str, start + 1, end - 1));
 	return (1);
 }
 
