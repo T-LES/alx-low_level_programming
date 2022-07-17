@@ -8,7 +8,7 @@ int square(int i, int n, int count);
  * @count: is a number
  * Return: the square
  */
-int square(int i, int n, int count);
+int square(int i, int n, int count)
 {
 	if (n < 0)
 		return (-1);
