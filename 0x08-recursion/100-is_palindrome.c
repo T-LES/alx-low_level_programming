@@ -1,5 +1,20 @@
 #include "main.h"
 int palindrome(char *str, int start, int end);
+int len(char *st);
+
+/**
+ * len - caculates the lenght of a string
+ * @st: is a string
+ * Return: the length
+ */
+int len(char *st)
+{
+	if (*st == '\0')
+	{
+		return (0);
+	}
+	return (1 + len(s + 1));
+}
 
 /**
  * palindrome - checks if a string is a palindrome
@@ -28,7 +43,7 @@ int is_palindrome(char *s)
 {
 	int k;
 
-	k = _strlen_recursion(s);
+	k = len(s);
 	if (k == 0)
 		return (1);
 	return (palindrome(s, 0, k - 1));
