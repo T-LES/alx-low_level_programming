@@ -13,7 +13,7 @@ int len(char *st)
 	{
 		return (0);
 	}
-	return (1 + len(s + 1));
+	return (1 + len(st + 1));
 }
 
 /**
