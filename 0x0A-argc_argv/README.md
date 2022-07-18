@@ -6,3 +6,5 @@ print the new name without having to compile it again
 . Program in 2-args.c prints all arguments it recieves
 
 . Program in 3-mul.c multiplies two numbers
+
+. Program in 4-add.c adds positive numbers
