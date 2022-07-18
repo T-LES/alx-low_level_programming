@@ -1,5 +1,5 @@
 . Program in 0-whatsmyname.c prints its name and if it's renamed,
-print the new name without having to compile it again
+  print the new name without having to compile it again
 
 . Program in 1-args.c prints the number of arguments passed into it
 
@@ -8,3 +8,6 @@ print the new name without having to compile it again
 . Program in 3-mul.c multiplies two numbers
 
 . Program in 4-add.c adds positive numbers
+
+. Program in 100-change.c prints the minimum number of coins to make 
+  change for an amount of money
