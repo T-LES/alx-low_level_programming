@@ -27,8 +27,11 @@ unsigned long int _pow(unsigned int x, unsigned int y)
  */
 void print_binary(unsigned long int n)
 {
-	int i = 32;
+	int i = 32, j;
 	unsigned long int k;
+
+	if (n == 0)
+		_putchar(48);
 
 	while (i >= 0)
 	{
@@ -36,10 +39,11 @@ void print_binary(unsigned long int n)
 
 		if (n >= k)
 		{
+			j = 1;
 			_putchar(49);
 			n -= k;
 		}
-		else
+		else if (j == 1)
 			_putchar(48);
 		i--;
 	}
