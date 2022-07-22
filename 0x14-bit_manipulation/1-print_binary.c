@@ -27,7 +27,7 @@ unsigned long int _pow(unsigned int x, unsigned int y)
  */
 void print_binary(unsigned long int n)
 {
-	int i = 32, j;
+	int i = 63, j;
 	unsigned long int k;
 
 	if (n == 0)
