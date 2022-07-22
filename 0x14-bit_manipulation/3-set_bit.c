@@ -17,6 +17,6 @@ int set_bit(unsigned long int *n, unsigned int index)
 	if (index >= m)
 		return (-1);
 
-	*n = *n | m;
+	*n = *n | k;
 	return (1);
 }
